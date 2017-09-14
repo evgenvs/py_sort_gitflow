@@ -21,5 +21,10 @@ class sort_Test(unittest.TestCase):
         self.assertEqual(res, self.num1)
 
 
+    def test_insertionSort(self):
+        res = sort.insertionSort(self.num2)
+        self.assertEqual(res, self.num1)
+
+
 if __name__=='__main__':
     unittest.main()
